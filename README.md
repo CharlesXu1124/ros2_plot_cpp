@@ -20,6 +20,8 @@ git clone https://github.com/CharlesXu1124/ros2_plot_cpp
 ```
 build the package and launch
 
+## Demo
+![gif](https://github.com/CharlesXu1124/ros2_plot_cpp/blob/main/resource/ros2_plot.gif?raw=true)
 
 ## License
 BSD 3-Clause License
