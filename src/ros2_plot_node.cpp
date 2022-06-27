@@ -55,7 +55,7 @@ public:
         : Node("img_subscriber")
     {
         subscriber_node = this->create_subscription<sensor_msgs::msg::Image>(
-            "/carla/ego_vehicle/rgb_front/image", 10, std::bind(&Ros2PlotNode::topic_callback, this, _1));
+            "TOPIC_NAME", 10, std::bind(&Ros2PlotNode::topic_callback, this, _1));
 
         table.add_row({"Payload Type", "DDS", "Single-trip Latency (ms)"});
         table.add_row({"Image", "Cyclone DDS", "0.015"});
