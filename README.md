@@ -1,5 +1,5 @@
 # ros2 plot cpp wrapper package
-## ros2 Wrapper package based on [Tabulate](https://github.com/p-ranav/tabulate/blob/528ef863662fc7c820d448a1515ee33f6ce8fe03/samples/summary.cpp)
+## ros2 Wrapper package based on [Tabulate](https://github.com/p-ranav/tabulate)
 
 Enables live updating and plotting/visualization in terminal
 
